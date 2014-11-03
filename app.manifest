@@ -1,0 +1,47 @@
+{
+"application":
+    {
+    "name": "dlna",
+    "display": "DLNA",
+    "version": "1.1.140828",
+    "sdk-version": "0.20.0",
+    "author": "Justin Maggard",
+    "description": "(BETA) Digital Living Network Alliance.",
+    "url": "http://sourceforge.net/projects/minidlna",
+    "requires": [],
+    "labels": ["dlna"],
+    "priority": "0",
+    "devices": ["storage"],
+    "ports": [],
+    "language": "en",
+    "country": "kr",
+    "icon_color": "rgba(62, 82, 48, 1)"
+    },
+"dependency":
+    {
+    "system": ["sudo",
+               "gettext",
+               "libFLAC-dev",
+               "libvorbis-dev",
+               "libogg-dev",
+               "libid3tag0-dev",
+               "libavutil-dev",
+               "libavcodec-dev",
+               "libavformat-dev",
+               "libjpeg-dev",
+               "libsqlite3-dev",
+               "libexif-dev",
+               "libupnp-dev",
+               "libgstreamer0.10-dev",
+               "gstreamer0.10-plugins-base",
+               "gstreamer0.10-plugins-good",
+               "gstreamer0.10-plugins-bad",
+               "gstreamer0.10-plugins-ugly",
+               "gstreamer0.10-ffmpeg",
+               "gstreamer0.10-pulseaudio",
+               "gstreamer0.10-alsa",
+               "gstreamer0.10-fluendo-mp3"],
+    "python": [],
+    "make": ["/lib"]
+    }
+}
